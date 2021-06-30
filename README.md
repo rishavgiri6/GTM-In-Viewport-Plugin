@@ -36,16 +36,21 @@ To start observing the element on the page, you just need to pass its CSS select
 Dependencies
 jQuery - https://github.com/jquery/jquery-dist.git
 isOnScreen jQuery plugin - https://github.com/moagrius/isOnScreen
-Building
-Install necessary packages.
+
+#Building:
+
+1. Install necessary packages.
 
 npm install
-Install Bower globally.
+
+2. Install Bower globally.
 
 npm install -g bower
-Install javascript libs dependencies - jQuery, isOnScreen jQuery plugin.
+
+3. Install javascript libs dependencies - jQuery, isOnScreen jQuery plugin.
 
 bower install
-Build (to 'dist' folder).
+
+4. Build (to 'dist' folder).
 
 gulp
